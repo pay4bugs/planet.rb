@@ -173,3 +173,7 @@ blogs:
     # Other fields:
     twitter: "poteland"
     url: "http://blog.poteland.com"    # => only required for people that don\'t have a \'url\' field on their RSS/Atom field'
+   
+    # Load twitter, image, etc from OneName distributed identity system https://www.onename.io 
+  - onename: "larry"
+    feed:   "http://www.larrysalibra.com/atom.xml"

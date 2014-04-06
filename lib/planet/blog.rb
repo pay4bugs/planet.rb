@@ -13,7 +13,8 @@ class Planet
                   :twitter,
                   :posts,
                   :planet,
-                  :rss_data
+                  :rss_data,
+                  :onename
 
     def initialize(attributes = {})
       self.url      = attributes[:url]
@@ -25,6 +26,7 @@ class Planet
       self.twitter  = attributes[:twitter]
       self.posts    = attributes.fetch(:posts, [])
       self.planet   = attributes[:planet]
+      self.onename  = attributes[:onename]
 
       # Feedzirra parsed data is  made available for when the information
       # provides is not enough. Transparency should help use cases we're

@@ -3,26 +3,28 @@ PATH
   specs:
     planet (0.5.2)
       box
-      feedzirra
+      feedjira
       gli
       mustache
+      onename
 
 GEM
   remote: http://rubygems.org/
   specs:
     box (0.1.1)
     curb (0.8.5)
-    feedzirra (0.7.0)
+    feedjira (1.1.0)
       curb (~> 0.8.1)
       loofah (~> 1.2.1)
       sax-machine (~> 0.2.1)
-    gli (2.8.1)
+    gli (2.9.0)
     loofah (1.2.1)
       nokogiri (>= 1.4.4)
-    mini_portile (0.5.2)
+    mini_portile (0.5.3)
     mustache (0.99.5)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
+    onename (0.1)
     sax-machine (0.2.1)
       nokogiri (~> 1.6.0)
 
