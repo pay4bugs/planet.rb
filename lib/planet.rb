@@ -52,7 +52,7 @@ class Planet
       Blog.new(
         feed:    blog['feed'],
         url:     blog['url'],
-        author:  author.nil? ? blog['author'] : author.onename,
+        author:  author.nil? ? blog['author'] : author.name_formatted,
         image:   author.nil? ?  blog['image'] : author.avatar_url,
         posts:   [],
         planet:  self,
